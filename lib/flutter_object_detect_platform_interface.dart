@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter_object_detect/models/detected_object.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
@@ -34,5 +32,4 @@ abstract class FlutterObjectDetectPlatform extends PlatformInterface {
   Future<String?> loadModel(String pathModel);
 
   Future<List<DetectedObject>> detectImage(String pathImage);
- 
 }

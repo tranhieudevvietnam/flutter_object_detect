@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter_object_detect/models/detected_object.dart';
 
 import 'flutter_object_detect_platform_interface.dart';

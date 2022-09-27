@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -50,6 +49,4 @@ class MethodChannelFlutterObjectDetect extends FlutterObjectDetectPlatform {
 
     return result;
   }
-
- 
 }

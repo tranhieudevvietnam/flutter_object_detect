@@ -24,7 +24,6 @@ class _ImageCropViewState extends State<ImageCropView> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       imageCrop();

@@ -1,4 +1,4 @@
-# flutter_object_detect
+# image_object_detection
 
 A new Flutter plugin project.
 

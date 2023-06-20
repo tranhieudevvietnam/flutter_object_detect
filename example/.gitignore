@@ -30,11 +30,7 @@ migrate_working_dir/
 .packages
 .pub-cache/
 .pub/
-.fvm/
 /build/
-
-# Web related
-lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols

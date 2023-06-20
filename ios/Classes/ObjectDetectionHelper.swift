@@ -70,7 +70,8 @@ class ObjectDetectionHelper: NSObject {
     let options = ObjectDetectorOptions(modelPath: modelPath)
     options.classificationOptions.scoreThreshold = scoreThreshold
     options.classificationOptions.maxResults = maxResults
-    options.baseOptions.computeSettings.cpuSettings.numThreads = Int32(threadCount)
+    options.baseOptions.computeSettings.cpuSettings.numThreads = threadCount
+    // options.baseOptions.computeSettings.cpuSettings.numThreads = Int32(threadCount)
     do {
       // Create the `Detector`.
       detector = try ObjectDetector.detector(options: options)
@@ -146,8 +147,10 @@ class ObjectDetectionHelper: NSObject {
 
 /// Default configuration
 struct ConstantsDefault {
-  static let threadCount = 2
-  static let scoreThreshold: Float = 0.4
-  static let maxResults: Int = 1
+  static let threadCount = 1
+  // static let scoreThreshold: Float = 0.4
+  static let scoreThreshold: Float = 0.2
+  // static let maxResults: Int = 1
+  static let maxResults: Int = 3
   static let theadCountLimit = 10
 }

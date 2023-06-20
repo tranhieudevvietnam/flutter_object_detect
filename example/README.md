@@ -1,6 +1,6 @@
-# flutter_object_detect_example
+# example
 
-Demonstrates how to use the flutter_object_detect plugin.
+A new Flutter project.
 
 ## Getting Started
 
